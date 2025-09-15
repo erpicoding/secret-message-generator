@@ -1,0 +1,45 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+  color: chartreuse;
+}
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: calc(100% - 100px);
+  height: 400px;
+  padding: 50px;
+}
+.buttonrow {
+  width: 100px;
+  height: 400px;
+  margin: 25px;
+  padding: auto;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.inputField {
+  width: 500px;
+  height: calc(100% - 100px);
+  border-radius: 15px;
+  padding: 5px;
+  text-align: center;
+  border: 2px solid chartreuse;
+}
+#seed {
+  height: 20px;
+  border-radius: 15px;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid chartreuse;
+}
+button {
+  height: 30px;
+  border-radius: 15px;
+  text-align: center;
+  border: 1px solid chartreuse;
+  font-size: 20px;
+}

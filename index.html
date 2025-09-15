@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <title>secret message generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <textarea
+      class="inputField"
+      id="normalText"
+      placeholder="Normaler Text"
+    ></textarea>
+    <div class="buttonrow">
+      <input placeholder="Seed" id="seed" />
+      <button onclick="encryptText()">---&gt;</button>
+      <button onclick="normalizeText()">&lt;---</button>
+    </div>
+    <textarea
+      class="inputField"
+      id="encryptedText"
+      placeholder="Random Text"
+    ></textarea>
+    <script src="./script.js"></script>
+  </body>
+</html>
