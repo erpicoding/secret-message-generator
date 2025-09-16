@@ -1,5 +1,5 @@
 const seedInput = document.getElementById("seed").value;
-const seed = parseInt(seedInput) % 26;
+const seed = Number(seedInput) % 26;
 
 function encryptText() {
   const inputText = document.getElementById("normalText").value;
