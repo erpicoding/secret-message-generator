@@ -13,7 +13,14 @@
       placeholder="Normaler Text"
     ></textarea>
     <div class="buttonrow">
-      <input placeholder="Seed" id="seed" />
+      <input
+        type="number"
+        min="2"
+        value="1234"
+        max="99999"
+        placeholder="Seed"
+        id="seed"
+      />
       <button onclick="encryptText()">---&gt;</button>
       <button onclick="normalizeText()">&lt;---</button>
     </div>

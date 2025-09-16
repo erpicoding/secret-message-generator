@@ -1,6 +1,8 @@
 function encryptText() {
   const seedInput = document.getElementById("seed").value;
-  const seed = Number(seedInput) % 26;
+  const seed = Number(seedInput) % 100000;
+
+  console.log("seed: ", seed);
 
   const inputText = document.getElementById("normalText").value;
   let result = "";
@@ -16,7 +18,7 @@ function encryptText() {
 }
 function normalizeText() {
   const seedInput = document.getElementById("seed").value;
-  const seed = Number(seedInput) % 26;
+  const seed = Number(seedInput) % 100000;
 
   const inputText = document.getElementById("encryptedText").value;
   let result = "";
